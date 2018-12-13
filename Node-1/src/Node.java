@@ -7,6 +7,8 @@
 public class Node {
 
     private String name;
+
+    // 下一个节点的引用
     private Node next;
 
     public Node(String name) {
@@ -16,14 +18,17 @@ public class Node {
 
 
     public String getName() {
+
         return name;
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
     public Node getNext() {
+
         return next;
     }
 
